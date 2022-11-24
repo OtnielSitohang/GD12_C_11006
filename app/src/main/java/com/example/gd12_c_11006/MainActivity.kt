@@ -71,7 +71,7 @@ class MainActivity : AppCompatActivity() {
         //ini berguna untuk akses Writing ke Storage HP kalian dalam mode Download.
         //harus diketik jangan COPAS!!!!
         val pdfPath = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS).toString()
-        val file = File(pdfPath, "pdf_10681.pdf")
+        val file = File(pdfPath, "pdf_11006.pdf")
         FileOutputStream(file)
 
         //inisaliasi pembuatan PDF
